@@ -46,14 +46,16 @@ footer {
   border-bottom: none;
 }
 
+  
+
 /*Navigation*/
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 10px;
   background-color: #c94c4c;
 }
 
@@ -71,11 +73,14 @@ nav a {
   color: #ffffff;
   font-weight: 600;
 }
-
+nav li.active a {
+    background-color: #8f0000;
+    color: #ffffff;
+}
 /* Wayfinding */
 nav a[href$="index.html"]:hover,
 nav a[href$="recipes.html"]:hover {
-  background-color: #8c2f2f;
+  background-color: #e28888;
 }
 
 /*Main Content*/
