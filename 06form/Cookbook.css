@@ -1,0 +1,269 @@
+/* Global Styles */
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #c94c4c;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #8c2f2f;
+  margin-top: 1.5em;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+
+/* Navigation */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px;
+  background-color: #c94c4c;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 1.5em;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+nav li.active a {
+  background-color: #8f0000;
+  color: #ffffff;
+}
+
+/* Hover */
+
+nav a[href$="index.html"]:hover,
+nav a[href$="recipes.html"]:hover,
+nav a[href$="dishes.html"]:hover {
+  background-color: #e28888;
+}
+
+/* Main Content */
+
+main {
+  padding: 2em;
+}
+
+/* Lists */
+
+ul {
+  list-style-type: square;
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+dl {
+  margin: 1.5em 0;
+  padding: 1em;
+  border: 2px solid #c94c4c;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+dt {
+  font-weight: 600;
+  color: #8c2f2f;
+}
+
+dd {
+  margin-left: 1em;
+  margin-bottom: 0.75em;
+}
+
+dl.cookingterms {
+    clear: right;
+}
+/* Links */
+
+a {
+  color: #c94c4c;
+}
+
+a:hover {
+  color: #8c2f2f;
+  text-decoration: underline;
+}
+
+/* Address */
+
+address {
+  font-style: normal;
+  margin-top: 2em;
+  padding: 1em;
+  border: 2px solid #c94c4c;
+  border-radius: 10px;
+  background-color: #fdf1ec;
+}
+
+/* Recipie Image */
+
+figure.wrapped {
+  float: right;
+  width: 35%;
+  margin: 0 0 1em 1.5em;
+}
+
+figure.wrapped img {
+  width: 100%;
+  height: auto;
+}
+
+/* Figure Caption */
+
+figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 0.5em;
+  color: #555;
+}
+
+/* Image Gallery */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+.gallery figure {
+  margin: 0;
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+/* Form Styling */
+
+form.myClass {
+  max-width: 600px;
+  margin: 1em auto;
+  padding: 1.5em;
+  background-color: #ffffff;
+  border: 2px solid #c94c4c;
+  border-radius: 10px;
+}
+.myClass input:required:invalid {
+    background-color: rgba(1566,51,53,0.1);
+}
+
+form.myClass fieldset {
+  border: 2px solid #c94c4c;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  background-color: #fdf1ec;
+}
+
+form.myClass legend {
+  font-weight: 600;
+  color: #8c2f2f;
+  padding: 0 0.5em;
+}
+
+
+form.myClass label {
+  display: block;
+  margin-bottom: 0.8em;
+  font-weight: 500;
+}
+
+
+form.myClass input[type="text"],form.myClass input[type="tel"],form.myClass input[type="email"],form.myClass select,
+form.myClass textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Poppins", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+
+form.myClass textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+
+form.myClass input[type="radio"],
+form.myClass input[type="checkbox"] {
+  margin-right: 0.4em;
+}
+
+
+form.myClass input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.8em;
+  background-color: #c94c4c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+form.myClass input[type="submit"]:hover {
+  background-color: #8c2f2f;
+}
+
+/* Header & Footer */
+
+header,
+footer {
+  background-color: #f4d6cc;
+  padding: 1.5em;
+  text-align: center;
+  border-bottom: 4px solid #c94c4c;
+}
+
+footer {
+  border-top: 4px solid #c94c4c;
+  border-bottom: none;
+
+  /* Required so footer stays below floated images */
+  clear: both;
+}

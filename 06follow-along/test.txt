@@ -1,0 +1,8 @@
+file:///C:/Users/aipad/OneDrive/Desktop/dwdd1600/06follow-along/thanks.html
+?fname=dude
+&lname=man
+&phone=801-999-9999
+&method=drone
+&deck=chosen
+&time=morning
+&comments=me+bomba
