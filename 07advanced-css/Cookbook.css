@@ -59,7 +59,7 @@ p {
     nav .active a {
         background-color: #c94c4c;
         color: #ffffff;
-        background-image: linear-gradient(to bottom,#c94c4c,c#8f0000 );
+        background-image: linear-gradient(to bottom,#c94c4c,#8f0000 );
 
 
     }    
