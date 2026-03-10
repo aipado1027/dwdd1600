@@ -26,6 +26,7 @@ h2 {
   color: #8c2f2f;
   margin-top: 1.5em;
   text-align: center;
+  
 }
 
 
@@ -42,6 +43,7 @@ p {
     nav ul {
         margin: 0;
         padding: 0;
+        list-style: none;
     }
     nav a {
         display: block;
@@ -179,10 +181,9 @@ address {
 /* Recipie Image */
 
 figure.wrapped {
-  float: right;
   width: 35%;
-  margin: 0 0 1em 1.5em;
-  max-width: 32rem;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 figure.wrapped img {
@@ -238,7 +239,7 @@ form.myClass {
   border-radius: 10px;
 }
 .myClass input:required:invalid {
-    background-color: rgba(1566,51,53,0.1);
+  background-color: rgba(1566,51,53,0.1);
 }
 
 form.myClass fieldset {
@@ -317,7 +318,7 @@ footer {
   clear: both;
 }
 
-header,nav,main, footer {
-  max-width: 1500;
-  margin: auto;
+header,nav,main,footer, p {
+  max-width: 1500px;
+  margin: 0 auto;
 }
